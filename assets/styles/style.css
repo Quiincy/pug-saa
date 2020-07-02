@@ -234,7 +234,7 @@ h2 {
 .section_wrapper{
   height: 750px;
   margin: 0 auto;
-  width: 1920px;
+  max-width: 1920px;
   background-image: url(../../img/Rectangle.svg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -280,6 +280,8 @@ h2 {
 .cop {
   align-items: center;
   padding-top: 60px;
+  display: flex;
+
 }
 .copyright {
   font-family: Roboto;
@@ -292,7 +294,7 @@ h2 {
 hr {
   margin-top: 40px;
   margin-bottom: 40px;
-  width: 1110px;
+  max-width: 1110px;
   height: 1px;
   background: #CDD1D4;
 }
@@ -308,5 +310,5 @@ hr {
 .cont-link-img:hover {
   transition: .7s;
   transform: scale(1.5);
-
 }
+
