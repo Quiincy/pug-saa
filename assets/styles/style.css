@@ -1,0 +1,312 @@
+body {
+  overflow-x: hidden;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1920px;
+  background-image: url(../../img/designer_1.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 1490px 1160px;
+}
+
+.header {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447E;
+}
+.buynow{
+  background: #111B47;
+  border-radius: 2px;
+  width: 160px;
+  height: 26px;
+  color: #FFFFFF;
+  outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+}
+
+.buynow:hover {
+  background-color:  rebeccapurple;
+}
+
+.buynow:active {
+  background-color: violet;
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #505F98;
+}
+.section1 {
+  margin-top: 261px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #091133;
+}
+
+p {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505F98;
+}
+.buttons {
+  margin-top: 70px;
+}
+.btn {
+  width: 189px;
+  height: 36px;
+  border-radius: 2px;
+} 
+.purchaseui {
+  background: #111B47;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.purchaseui:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+.purchaseui:active {
+  color: white;
+  background-color: violet;
+}
+.learnmore {
+  margin-left: 30px;
+  border: 2px solid #091133;
+  background: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #091133;
+}
+.learnmore:hover {
+  background-color: pink;
+}
+.learnmore:active {
+  background-color: violet;
+}
+
+.section2 {
+  height: 530px;
+  margin-top: 540px;
+  background-image: url(../../img/u.svg);
+  background-position:center right;
+  background-repeat: no-repeat;
+  background-size: 540px 524px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+
+.subscription {
+  display: flex;
+
+
+}
+.subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5D6970;
+  margin-left: -15px;
+  width: 100%;
+}
+.letter {
+  margin-top: 80px;
+}
+.s2_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #091133;
+}
+
+.section3 {
+  margin-top: 200px;
+  height: 280px;
+  background-image: url(../../img/undraw_happy_news_hxmt.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 380px 280px;
+}
+
+.section4 {
+  margin-top: 200px;
+  height: 300px;
+  background-image: url(../../img/undraw_social_influencer_sgsv.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 400px 330px;
+}
+.section5 {
+  margin-top: 230px;
+  height: 300px;
+  background-image: url(../../img/undraw_mention_6k5d.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 440px 305px;
+}
+.purchase_now {
+  background: #111B47;
+  border-radius: 2px;
+  width: 150px;
+  height: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 40px;
+}
+
+.purchase_now:hover {
+  background-color: rebeccapurple;
+} 
+.purchase_now:active {
+  background-color: violet;
+}
+.section6 {
+  padding-top: 200px;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.section_wrapper{
+  height: 750px;
+  margin: 0 auto;
+  width: 1920px;
+  background-image: url(../../img/Rectangle.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+}
+
+.price_title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #222F65;
+  margin-top: 35px;
+}
+.price_subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #37447E;
+}
+.attract {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #5D6970;
+  margin-top: 60px;
+}
+.btnb {
+  margin-top: 10px;
+}
+.bot_wrapper {
+  background: #E7ECFF;
+}
+.cop {
+  align-items: center;
+  padding-top: 60px;
+}
+.copyright {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939EA4;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 1110px;
+  height: 1px;
+  background: #CDD1D4;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.cont {
+  display: flex;
+  align-items: center;
+}
+
+.cont-link-img:hover {
+  transition: .7s;
+  transform: scale(1.5);
+
+}
